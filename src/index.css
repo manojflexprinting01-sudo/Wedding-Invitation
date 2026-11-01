@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-telugu: 'Noto Serif Telugu', 'Tiro Telugu', serif;
+    --font-cinzel: 'Cinzel', serif;
+    --font-playfair: 'Playfair Display', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+.font-telugu {
+  font-family: var(--font-telugu);
+}
+
+.font-cinzel {
+  font-family: var(--font-cinzel);
+}
+
+.font-playfair {
+  font-family: var(--font-playfair);
+}
+
+/* Elegant traditional South Indian typography */
+.wedding-title-royal {
+  font-family: var(--font-playfair);
+  color: #4a1508;
+  letter-spacing: -0.015em;
+  text-shadow: 0 1px 2px rgba(92, 33, 14, 0.15);
+}
+
+.wedding-telugu-bold {
+  font-family: var(--font-telugu);
+  color: #3f1708;
+  letter-spacing: normal;
+}
+
+/* Custom wedding gold and parchment paper textures */
+.parchment-pattern {
+  background-color: #faf6ee;
+  background-image: 
+    radial-gradient(#d4af37 0.5px, transparent 0.5px), 
+    radial-gradient(#c29336 0.5px, #faf6ee 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  background-blend-mode: soft-light;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #854d0e 0%, #b45309 40%, #78350f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.kumkum-gradient-text {
+  background: linear-gradient(135deg, #881337 0%, #9f1239 45%, #9a3412 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wedding-border-frame {
+  border: 1px solid rgba(180, 130, 40, 0.35);
+  box-shadow: 0 0 0 4px rgba(254, 243, 199, 0.7), 0 0 0 5px rgba(180, 130, 40, 0.25);
+}
+
+/* Hide scrollbars for smooth template horizontal preview */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

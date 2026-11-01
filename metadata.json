@@ -1,0 +1,6 @@
+{
+  "name": "Chettipally Wedding Invitation & Editor",
+  "description": "Bilingual Telugu & English auspicious wedding invitation (శుభలేఖ) and interactive invitation editor for Tejaswini & Srinivas with traditional rituals, card templates, muhurtham details, and digital RSVP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
